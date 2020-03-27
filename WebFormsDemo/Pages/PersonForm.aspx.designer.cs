@@ -24,22 +24,22 @@ namespace WebFormsDemo
         protected global::System.Web.UI.WebControls.ValidationSummary ValidationSummary1;
 
         /// <summary>
-        /// RequiredFieldSIN control.
+        /// RequiredFieldStudentID control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldSIN;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldStudentID;
 
         /// <summary>
-        /// RegularExpressionSIN control.
+        /// CompareValidator1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RegularExpressionValidator RegularExpressionSIN;
+        protected global::System.Web.UI.WebControls.CompareValidator CompareValidator1;
 
         /// <summary>
         /// RequiredFieldName control.
@@ -51,40 +51,22 @@ namespace WebFormsDemo
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldName;
 
         /// <summary>
-        /// RequiredFieldAge control.
+        /// RequiredFieldCredits control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldAge;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldCredits;
 
         /// <summary>
-        /// CompareAge control.
+        /// RangeCredits control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CompareValidator CompareAge;
-
-        /// <summary>
-        /// RequiredFieldWage control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldWage;
-
-        /// <summary>
-        /// RangeWage control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RangeValidator RangeWage;
+        protected global::System.Web.UI.WebControls.RangeValidator RangeCredits;
 
         /// <summary>
         /// RequiredFieldPhone control.
@@ -114,13 +96,13 @@ namespace WebFormsDemo
         protected global::System.Web.UI.WebControls.Label Label1;
 
         /// <summary>
-        /// SIN control.
+        /// StudentID control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox SIN;
+        protected global::System.Web.UI.WebControls.TextBox StudentID;
 
         /// <summary>
         /// Label2 control.
@@ -141,24 +123,6 @@ namespace WebFormsDemo
         protected global::System.Web.UI.WebControls.TextBox Name;
 
         /// <summary>
-        /// LabelAge control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LabelAge;
-
-        /// <summary>
-        /// Age control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Age;
-
-        /// <summary>
         /// Label3 control.
         /// </summary>
         /// <remarks>
@@ -168,13 +132,13 @@ namespace WebFormsDemo
         protected global::System.Web.UI.WebControls.Label Label3;
 
         /// <summary>
-        /// Wage control.
+        /// Credits control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Wage;
+        protected global::System.Web.UI.WebControls.TextBox Credits;
 
         /// <summary>
         /// Label4 control.
